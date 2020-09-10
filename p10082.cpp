@@ -1,0 +1,120 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    char c[100];
+    int i,j;
+    gets(c);
+    //cout <<c;
+    for (i=0; i<strlen(c); i++)
+    {
+        if(c[i]=='C')
+        {
+            c[i]='X';
+        }
+        if(c[i]=='W')
+        {
+            c[i]='Q';
+        }
+        if(c[i]=='S')
+        {
+            c[i]='A';
+        }
+        if(c[i]=='X')
+        {
+            c[i]='Z';
+        }
+        if(c[i]=='E')
+        {
+            c[i]='W';
+        }
+        if(c[i]=='D')
+        {
+            c[i]='S';
+        }
+        if(c[i]=='C')
+        {
+            c[i]='X';
+        }
+        if(c[i]=='R')
+        {
+            c[i]='E';
+        }
+        if(c[i]=='F')
+        {
+            c[i]='D';
+        }
+        if(c[i]=='V')
+        {
+            c[i]='C';
+        }
+        if(c[i]=='T')
+        {
+            c[i]='R';
+        }
+        if(c[i]=='G')
+        {
+            c[i]='F';
+        }
+        if(c[i]=='B')
+        {
+            c[i]='V';
+        }
+        if(c[i]=='Y')
+        {
+            c[i]='T';
+        }
+        if(c[i]=='H')
+        {
+            c[i]='G';
+        }
+        if(c[i]=='N')
+        {
+            c[i]='B';
+        }
+        if(c[i]=='U')
+        {
+            c[i]='Y';
+        }
+        if(c[i]=='J')
+        {
+            c[i]='H';
+        }
+        if(c[i]=='M')
+        {
+            c[i]='N';
+        }
+        if(c[i]=='O')
+        {
+            c[i]='I';
+        }
+        if(c[i]=='L')
+        {
+            c[i]='K';
+        }
+        if(c[i]==',')
+        {
+            c[i]='M';
+        }
+        if(c[i]=='{')
+        {
+            c[i]='P';
+        }
+        if(c[i]==':')
+        {
+            c[i]='L';
+        }
+        if(c[i]=='/')
+        {
+            c[i]='.';
+        }
+        if(c[i]=='P')
+        {
+            c[i]='O';
+        }
+
+
+    }
+    cout <<c;
+}
